@@ -1,0 +1,69 @@
+.main-header {
+    background: var(--gradient-primary);
+    color: var(--text-primary);
+    padding: 3rem 2rem 2rem 2rem;
+    text-align: left;
+    border-bottom: 3px solid var(--primary-color);
+    box-shadow: 0 4px 24px var(--shadow-medium);
+    position: relative;
+    overflow: hidden;
+}
+
+#hello {
+    font-size: 1.25rem;
+    font-weight: 100;
+    font-family:consolas, monospace; 
+    margin: 0;
+    color: var(--text-secondary);
+}
+
+.main-header::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--bg-overlay);
+    z-index: 0;
+    
+}
+
+.main-header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.main-header > * {
+    position: relative;
+    z-index: 1;
+}
+
+.main-nav-menu {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--bg-primary);
+    box-shadow: 0 2px 8px var(--shadow-light);
+}
+
+#projects h4, h2{
+    margin-left: 2.5rem;
+
+}
+
+#projects h2 {
+    padding-top: 1rem;
+}
+
+.projects-footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--bg-secondary);
+    border-radius: 10px;
+    width: 80%;
+    border: 2px solid var(--border-color);
+    margin: 2rem auto;
+}
+
+#projects{
+    border-bottom: 2px solid var(--primary-color);
+}
+

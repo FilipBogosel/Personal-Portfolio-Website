@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filip Bogosel - Software Developer</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header class="main-header">
+        <p id="hello">Hello I'm </p>
+        <h1>Filip Bogoșel</h1>
+        <p id="hello">CS Student-Software Developer</p>
+    </header>
+    <div class="content">
+        <nav class="main-nav-menu">
+            <ul class="navigation-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <section id="about">
+            <h2 id="about-header">About Me</h2>
+            <div id="about-paragraphs">
+                <p class="display-card">My name is Filip Bogosel, a Computer Science student and software developer with a passion for creating innovative solutions. I am currently pursuing my studies at Babes-Bolyai University in Cluj-Napoca, Romania.</p>
+            
+                <p class="display-card">Through my academic journey, I have developed a strong foundation in Programming Fundamentals, OOP, data structures and algorithms, Computer Architecture, Mathematics and Operating Systems(Linux). I enjoy working with various programming languages including Python, Java, and C/C++, and I'm constantly exploring new technologies to expand my skill set.</p>
+                
+                <p class="display-card">My curiosity drives me to tackle challenging problems and build meaningful projects that combine creativity with technical expertise. I'm interested in building clean, reusable software and I want to contribute to meaningful projects that make a difference. I'm also passionate about scripting, automation, machine-learning and currently learning full-stack web development.</p>
+            </div>
+        </section>
+    
+        <section id="projects">
+            <h2>Projects</h2>
+            <h4>Here are some of the projects I've worked on:</h4>
+            <ul class="projects-list">
+                <li class="project-card">
+                    <h3>Events Tracker</h3>
+                    <p>A C++ application that allows users to track events and their details. It includes features for adding, editing, and deleting events, as well as searching for specific events. It has an admin side and a user side with login. The admin part has an intuitive CRUD interface for managing the entire events list. The user side allows the current user to have their own list of events, go through the sorted events list, choose a month for sorting, and view elements displayed as a table to see all the information. There is also the option to open their list in Excel or in a browser, with an HTML file being created for that. I learned very strong OOP concepts building this app. It also has a nice graphical interface built using the Qt framework.</p>
+                    <p><strong>Technologies:</strong> C++, Qt, OOP, STL, Advanced File I/O.</p> 
+                    <a href="https://github.com/FilipBogosel/Events-Tracker" class="github-btn" target="_blank" rel="noopener">
+                        <img src="./images/icons8-github-50.png" alt="GitHub logo" width="32" height="32">
+                        <span>GitHub Repository</span>
+                    </a>
+                </li>
+
+                <li class="project-card">
+                    <h3>Smart-Image-Sorter</h3>
+                    <p>An AI-powered photo organization tool that automatically sorts images into categories like portraits, couples, groups, pets, nature, food, art, vehicles, and urban scenes into folders it will create in the provided folder. By building this project, I learned how to use pre-trained models for image classification and object detection, as well as how to process images using Python Image Library (PIL) and manage files with the Python OS module. It has a PowerShell script that makes all the downloads and runs the program automatically, so you don't have to do anything manually.</p>
+
+                    <p><strong>Technologies:</strong> Python, PyTorch, torchvision, TensorFlow, ResNet18 (pre-trained on ImageNet) for image classification, ImageAI with RetinaNet for object detection, PIL for image processing, CUDA for GPU acceleration, Python OS library.</p>
+                    <a href="https://github.com/FilipBogosel/Smart-Image-Sorter" class="github-btn" target="_blank" rel="noopener">
+                        <img src="./images/icons8-github-50.png" alt="GitHub logo" width="32" height="32">
+                        <span>GitHub Repository</span>
+                    </a>
+                </li>
+
+                <li class="project-card">
+                    <h3>Battleships Game</h3>
+                    <p>This Battleships game implementation is a strategic naval combat game that allows players to battle against an intelligent AI opponent through both console and GUI interfaces. The project demonstrates advanced object-oriented programming principles with clean modular architecture, featuring separate classes for game logic, board management, and ship placement. Key learning achievements include developing an algorithm that learns from successful hits and strategically targets adjacent cells, implementing comprehensive error handling with custom exceptions for invalid moves, and creating a dual interface design that supports both terminal-based and graphical gameplay. The implementation emphasizes software engineering best practices with 100% test coverage through 25+ unit tests, robust input validation, and maintainable code structure that separates game logic from presentation layers.</p>
+
+                    <p><strong>Technologies:</strong> Python, PyQt5, OOP, Texttable, Custom Exception Handling, Event-Driven Programming.</p>
+                    <a href="https://github.com/FilipBogosel/Battleships-Game-Player-vs-AI" class="github-btn" target="_blank" rel="noopener">
+                        <img src="./images/icons8-github-50.png" alt="GitHub logo" width="32" height="32">
+                        <span>GitHub Repository</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="projects-footer">
+                <h2>Also, you can find the repository for this website on <a href="https://github.com/FilipBogosel/Personal-Portfolio-Website">GitHub</a>.</h2>
+
+                <h2>For more projects, check out my <a href="https://github.com/FilipBogosel">GitHub Profile</a></h2>  
+                
+                <h2>Download my <a href="#">Resume</a></h2>
+            </div>
+            
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Programming Languages: Python, C++</li>
+                <li>Web Development: HTML, CSS, JavaScript</li>
+                <li>Frameworks: Qt, PyQt, React, Node.js, Electron</li>
+                <li>Database Management: MySQL, SQLite</li>
+                <li>Version Control: Git, GitHub</li>
+                <li>Machine Learning: PyTorch, TensorFlow, sklearn</li>
+            </ul>
+            <p>I'm always eager to learn new technologies and improve my skills.</p>
+        </section>
+    
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:filip.bogosel.dev@gmail.com">filip.bogosel.dev@gmail.com</a> or connect with me on one of the following platforms:</p>
+            <ul class="contact-links">
+                <li><a href="https://www.instagram.com/filipbogosel123/"><img src="./images/icon-1562136_640.png" alt="instagram icon" width="20" height="20"></a></li>
+                <li><a href="https://www.linkedin.com/in/filip-bogosel-7b3aaa213/"><img src="./images/icons8-linkedin-96.png" alt="linkedin icon"></a></li>
+                <li><a href="https://www.facebook.com/filip.bogosel/"><img src="./images/icons8-facebook-96.png" alt="facebook icon"></a></li>
+                <li>+40 772 283 415</li>
+            </ul>
+        </section>
+    </div>
+    
+
+
+
+    
+</body>
+</html>

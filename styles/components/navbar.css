@@ -1,0 +1,41 @@
+.navigation-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding-left: 0; /* Override base.css for navbar */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+
+.navigation-links a{
+    color: var(--text-primary);
+    font-size: 2.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navigation-links li{
+    margin: 0;
+    padding: 0;
+    padding: 0.5rem 1rem;
+}
+
+.navigation-links li:hover{
+    cursor: pointer;
+    background-color: var(--bg-hover); 
+    transition: background-color 0.7s ease;
+    transform: translateY(-2px);
+    transform: translateX(-2px);
+    border-radius: 4px; 
+    a{
+        color: var(--primary-color);
+    }
+    transition: color 0.3s ease;
+    box-shadow: 0.2rem 0.2rem #1db9543e;
+    
+
+}
+

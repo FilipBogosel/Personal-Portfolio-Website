@@ -1,0 +1,40 @@
+:root {
+    /* * SPOTIFY THEME PALETTE
+     * Philosophy: A true dark mode experience inspired by the Spotify UI.
+     * Core colors are a near-black background, the iconic Spotify green for all
+     * primary actions, and a clear hierarchy of white and gray for text.
+     */
+
+    /* Primary Colors - The iconic Spotify Green */
+    --primary-color: #1DB954;          /* Official Spotify Green for buttons & highlights */
+    --primary-light: #1ED760;          /* A lighter green for hover states */
+    --primary-dark: #177c3a;           /* A darker green for active/pressed states */
+    
+    /* Secondary & Accent Colors - For secondary actions and system messages */
+    --secondary-color: #535353;        /* A neutral gray for secondary buttons or borders */
+    --accent-red: #f15e6c;             /* A visible red for errors on a dark background */
+    --accent-orange: #f39c12;          /* Orange for warnings */
+    
+    /* Text Colors - High-contrast for maximum readability */
+    --text-primary: #FFFFFF;           /* Pure white for headings and primary text */
+    --text-secondary: #B3B3B3;         /* Light gray for subheadings and descriptive text */
+    --text-link: var(--text-primary);  /* Links are white by default, can turn green on hover */
+    
+    /* Background Colors - Layered dark grays to create depth */
+    --bg-primary: #121212;             /* Main, near-black background */
+    --bg-secondary: #181818;           /* Slightly lighter for content sections */
+    --bg-card: #282828;                /* Card backgrounds for projects/items */
+    --bg-hover: #3a3a3a;               /* A background color for list item hovers */
+    --bg-overlay: rgba(0, 0, 0, 0.7);  /* A generic black overlay for modals or popups */
+    
+    /* Border Colors */
+    --border-color: #3f3f3f;           /* A subtle but visible border color */
+    
+    /* Shadow Colors - Shadows are very subtle in this theme */
+    --shadow-light: rgba(0, 0, 0, 0.3);
+    --shadow-medium: rgba(0, 0, 0, 0.5);
+    --shadow-dark: rgba(0, 0, 0, 0.7);
+    
+    /* Gradients - For hero sections or decorative elements */
+    --gradient-primary: linear-gradient(135deg, var(--primary-color), #000000);
+}   

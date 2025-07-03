@@ -1,0 +1,22 @@
+
+
+.project-card {
+    background-color: var(--bg-card);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px var(--shadow-light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    margin: 1rem;
+    border: 2px solid var(--border-color);
+    flex: 1;
+    font-size: 1.2rem;
+}
+
+.project-card:hover {
+    background-color: var(--bg-hover);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 6px 20px var(--shadow-medium);
+    transform: translateY(-4px);
+    border-radius: 15px;
+    border-color: var(--primary-color);
+}

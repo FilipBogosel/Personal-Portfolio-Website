@@ -1,0 +1,28 @@
+.github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px var(--shadow-light);
+}
+
+.github-btn:hover {
+    background: var(--primary-dark);
+    color: #fff;
+    box-shadow: 0 4px 16px var(--shadow-medium);
+    transition: background 0.5s, box-shadow 0.2s;
+}
+
+.github-btn img {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}

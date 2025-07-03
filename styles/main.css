@@ -1,0 +1,13 @@
+/* =================================== */
+/* Import all files */
+/* =================================== */
+
+@import './variables.css';
+@import './base.css';
+@import './components/navbar.css';
+@import './layouts.css';
+@import './about.css';
+@import './contact.css';
+@import './components/buttons.css';
+@import './components/cards.css';
+@import './components/skills.css';
