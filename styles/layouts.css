@@ -67,3 +67,22 @@
     border-bottom: 2px solid var(--primary-color);
 }
 
+#typewritter-name::after{
+    content: '|';
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    from, to{
+        color: transparent;
+
+    }
+    50%{
+        color: var(--text-primary);
+    }
+}
+
+#typewritter-name.no-cursor::after {
+    content: none;
+    animation: none;
+}
