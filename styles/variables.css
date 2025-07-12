@@ -10,31 +10,65 @@
     --primary-light: #1ED760;          /* A lighter green for hover states */
     --primary-dark: #177c3a;           /* A darker green for active/pressed states */
     
-    /* Secondary & Accent Colors - For secondary actions and system messages */
+    /* Secondary Color */
     --secondary-color: #535353;        /* A neutral gray for secondary buttons or borders */
-    --accent-red: #f15e6c;             /* A visible red for errors on a dark background */
-    --accent-orange: #f39c12;          /* Orange for warnings */
-    
-    /* Text Colors - High-contrast for maximum readability */
+
+    /* Text Colors */
     --text-primary: #FFFFFF;           /* Pure white for headings and primary text */
     --text-secondary: #B3B3B3;         /* Light gray for subheadings and descriptive text */
-    --text-link: var(--text-primary);  /* Links are white by default, can turn green on hover */
-    
-    /* Background Colors - Layered dark grays to create depth */
+
+    /* Background Colors */
     --bg-primary: #121212;             /* Main, near-black background */
     --bg-secondary: #181818;           /* Slightly lighter for content sections */
     --bg-card: #282828;                /* Card backgrounds for projects/items */
     --bg-hover: #3a3a3a;               /* A background color for list item hovers */
     --bg-overlay: rgba(0, 0, 0, 0.7);  /* A generic black overlay for modals or popups */
-    
+
     /* Border Colors */
     --border-color: #3f3f3f;           /* A subtle but visible border color */
-    
-    /* Shadow Colors - Shadows are very subtle in this theme */
+
+    /* Shadow Colors */
     --shadow-light: rgba(0, 0, 0, 0.3);
     --shadow-medium: rgba(0, 0, 0, 0.5);
-    --shadow-dark: rgba(0, 0, 0, 0.7);
-    
-    /* Gradients - For hero sections or decorative elements */
+
+    /* Gradients */
     --gradient-primary: linear-gradient(135deg, var(--primary-color), #000000);
 }   
+
+.light-theme{
+    /* Primary Colors - Spotify Green for light backgrounds */
+    --primary-color: #1DB954;
+    --primary-light: #1ED760;
+    --primary-dark: #177c3a;
+
+    /* Secondary & Accent Colors */
+    --secondary-color: #e0e0e0; /* Light neutral gray for borders/buttons */
+    /* Accent Colors (not used, kept for future-proofing) */
+    --accent-red: #e74c3c;
+    --accent-orange: #f39c12;
+
+    /* Text Colors */
+    --text-primary: #181818;    /* Near-black for headings and primary text */
+    --text-secondary: #333333;  /* Dark gray for subheadings and descriptive text */
+    /* Text Link (not used, kept for future-proofing) */
+    --text-link: var(--primary-color);
+
+    /* Background Colors */
+    --bg-primary: #f8f8f8;      /* Main, very light gray background */
+    --bg-secondary: #f0f0f0;    /* Slightly darker for content sections */
+    --bg-card: #ffffff;         /* Pure white for cards */
+    --bg-hover: #e6f4ea;        /* Very light green for hovers */
+    --bg-overlay: rgba(255,255,255,0.7); /* White overlay for modals/popups */
+
+    /* Border Colors */
+    --border-color: #cccccc;    /* Light but visible border color */
+
+    /* Shadow Colors */
+    --shadow-light: rgba(0,0,0,0.08);
+    --shadow-medium: rgba(0,0,0,0.15);
+    /* Shadow Dark (not used, kept for future-proofing) */
+    --shadow-dark: rgba(0,0,0,0.25);
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, #e8ffe8, #ffffff 80%, #1DB954 100%);
+}

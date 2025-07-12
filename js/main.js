@@ -26,3 +26,14 @@ document.addEventListener("DOMContentLoaded", ()=>{
     type();
 });
 
+
+// ====================Switch theme button=====================
+
+const switchBtn = document.getElementById("theme-toggle");
+
+switchBtn.addEventListener("click", event =>{
+    
+    document.body.classList.toggle("light-theme");
+    event.target.textContent = (event.target.textContent === "Light Theme") ? "Dark Theme" : "Light Theme";
+});
+
